@@ -48,7 +48,7 @@ const Contact = () => {
   `
 
   const tel = "0113 243 2336"
-  const email = "xyz@lol.com"
+  const email = "yosefalemayo9@gmail.com"
   const gmapLink =
     "https://maps.google.co.uk/?daddr=Danwood+House,+34+Regent+St,+Leeds+LS2+7QN"
   const fb =

@@ -8,6 +8,10 @@
 @tailwind base;
 @tailwind components;
 
+* {
+  margin: 0;
+
+}
 p {
     white-space: pre-wrap
 }
