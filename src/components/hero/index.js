@@ -1,0 +1,5 @@
+export { default as HeroImage } from "./HeroImage"
+export { default as HeroLinks } from "./HeroLinks"
+export { default as HeroButton } from "./HeroButton"
+export { default as HeroText } from "./HeroText"
+export { default as HeroCenter } from "./HeroCenter"
