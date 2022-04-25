@@ -5,9 +5,10 @@ import "./Flower.css"
 
 const Flower = ({ text, src, alt, flowerType, scale, borderColor }) => {
   const flower = `
-  w-auto
+  w-screen
   h-96
   md:h-60
+  md:w-auto
   `
 
   const container = `
