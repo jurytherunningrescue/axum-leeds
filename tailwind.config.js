@@ -54,5 +54,6 @@ module.exports = {
   plugins: [
     require("tailwindcss-textshadow"),
     require("tailwindcss-text-fill-stroke"),
+    require("autoprefixer"),
   ],
 }

@@ -6,8 +6,7 @@ const MenuSection = ({ children, title, subtitle, mb }) => {
   const body = `
   bg-menuBackground
   flex
-  ${mb && "mb-32"}
-  md:h-screen
+  ${mb && "md:mb-32"}
   `
 
   const subStyle = `

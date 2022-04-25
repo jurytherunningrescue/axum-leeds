@@ -1,11 +1,13 @@
 import React from "react"
 
 import purpleCircle from "../images/purple-circle-transparent.png"
+import "./Flower.css"
 
 const Flower = ({ text, src, alt, flowerType, scale, borderColor }) => {
   const flower = `
-  w-full
-  h-60
+  w-auto
+  h-96
+  md:h-60
   `
 
   const container = `
@@ -14,15 +16,13 @@ const Flower = ({ text, src, alt, flowerType, scale, borderColor }) => {
   `
 
   const centeredContent = `
+  centered-flower
   absolute
   top-1/2
   left-1/2
-  transform
-  -translate-x-1/2
-  -translate-y-1/2
+  w-80
   ${text != null && "font-raleway"}
   ${text != null && "font-bond"}
-  ${src != null && `scale-[76%]`}
   ${src != null && `rounded-full`}
   ${src != null && `border-[4px] md:border-[5px]`}
   ${
