@@ -48,11 +48,12 @@ const Contact = () => {
   `
 
   const tel = "0113 243 2336"
-  const email = "yosefalemayo9@gmail.com"
+  const email = "axumleeds@gmail.com"
   const gmapLink =
     "https://maps.google.co.uk/?daddr=Danwood+House,+34+Regent+St,+Leeds+LS2+7QN"
   const fb =
     "https://www.facebook.com/pages/category/Local-service/Axum-bar-and-restaurant-107022348192925/"
+  const insta = "https://www.instagram.com/axumleeds/?hl=en"
   return (
     <div className="flex w-screen h-screen justify-center items-center">
       <div id="contact" className={contactList}>
@@ -74,7 +75,9 @@ const Contact = () => {
           <li
             className={`${liDropDown} self-center mt-4 flex space-x-8 border border-habeshaRed hover:bg-inherit`}
           >
-            <FiInstagram />
+            <a href={insta} target="_blank" rel="noreferrer">
+              <FiInstagram />
+            </a>
             <a href={fb} target="_blank" rel="noreferrer">
               <FiFacebook />
             </a>
