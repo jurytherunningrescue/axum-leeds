@@ -11,13 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Delete Node and NPM
-        run: sudo apt purge nodejs npm
-      - name: Install NVM
-        run: wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-      - name: Install Node 18
-        run: nvm install v18.13.0 && nvm use v18.13.0
-      - name: check node version
+      - name: Install node 18.13.0
+        run: sudo npm cache clean -f && sudo npm install -g n && sudo n 18.13.0
+      - name: Check Node Version
         run: /usr/local/bin/npm --version && node --version
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
