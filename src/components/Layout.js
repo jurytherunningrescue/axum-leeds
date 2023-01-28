@@ -25,6 +25,12 @@ const Layout = ({
         <HeroText text="Axum" />
         <HeroText text="Bar & Restaurant" />
         <HeroButton to="/menu" text="Menu" />
+        <span></span>
+        <HeroButton
+          target="_blank"
+          to="https://app.walkup.co/create_booking/vendor/eRU9gAQe-UFgkCTTca8ZBJE4Iqc3-rxnNyADH6b7K7I_restaurant"
+          text="Reserve Table"
+        />
       </>
     )
   }

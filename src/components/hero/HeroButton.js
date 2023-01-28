@@ -18,7 +18,7 @@ const HeroButton = props => {
   `
 
   return (
-    <Link to={props.to}>
+    <Link to={props.to} target={props.target}>
       <span className={heroButton}>{props.text} </span>
     </Link>
   )
