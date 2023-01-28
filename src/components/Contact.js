@@ -51,8 +51,7 @@ const Contact = () => {
   const email = "axumleeds@gmail.com"
   const gmapLink =
     "https://maps.google.co.uk/?daddr=Danwood+House,+34+Regent+St,+Leeds+LS2+7QN"
-  const fb =
-    "https://www.facebook.com/pages/category/Local-service/Axum-bar-and-restaurant-107022348192925/"
+  const fb = "https://www.facebook.com/profile.php?id=100083938080232"
   const insta = "https://www.instagram.com/axumleeds/?hl=en"
   return (
     <div className="flex w-screen h-screen justify-center items-center">
