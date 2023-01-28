@@ -31,6 +31,18 @@ const Layout = ({
           to="https://app.walkup.co/create_booking/vendor/eRU9gAQe-UFgkCTTca8ZBJE4Iqc3-rxnNyADH6b7K7I_restaurant"
           text="Reserve Table"
         />
+        <span></span>
+        <span className="text-shadow-xl text-3xl font-eagleLake font-bold text-black italic">
+          Find us on &nbsp;
+          <a
+            href="https://w1k.in/ThAhkz5SI"
+            className="underline hover:text-5xl hover:text-habeshaOrange visited:text-habeshaGreen"
+            target="_blank"
+            rel="noreferrer"
+          >
+            the Dojo App
+          </a>
+        </span>
       </>
     )
   }

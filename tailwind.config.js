@@ -24,6 +24,7 @@ module.exports = {
         habeshaRed: "#D7102F",
         habeshaBrightRed: "#F11B2A",
         habeshaDarkPurple: "#49025C",
+        popPink: " #33ffe3",
       },
       fontFamily: {
         bitter: ["Bitter"],
